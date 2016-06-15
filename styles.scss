@@ -117,7 +117,7 @@ a {
 		}
 	}
 	&__nav-item-link {
-		font: bold 18px 'Montserrat', sans-serif;
+		font: bold 15px 'Montserrat', sans-serif;
 		padding: 2px 0;
 	}
 }
@@ -126,7 +126,7 @@ a {
 	@include flex-centered;
 	position: relative;
 	height: 400px;
-	background: fixed $main url('../man.jpg') center top no-repeat;
+	background: $main url('../man.jpg') center center no-repeat;
 	background-size: cover;
 	box-shadow:  0 0 10px -2px black inset;
 	&__slogan {
