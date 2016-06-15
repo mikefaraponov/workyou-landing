@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>WorkYou</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster">
+</head>
+
+<body>
+	<div class="g-root">
+		<header class="b-header">
+			<nav class="b-header__container g-container">
+				<a class="b-header__logo">
+					WorkYou
+				</a>
+				<ul class="b-header__nav-item-list">
+					<li class="b-header__nav-item">
+						<a class="b-header__nav-item-link" href>About</a>
+					</li>
+					<li class="b-header__nav-item">
+						<a class="b-header__nav-item-link" href>Profile</a>
+					</li>
+					<li class="b-header__nav-item">
+						<a class="b-header__nav-item-link" href>Vacancies</a>
+					</li>
+					<li class="b-header__nav-item">
+						<a class="b-header__nav-item-link" id="login">Sign out</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="b-poster">
+				<strong class="b-poster__slogan">Try Harder!</strong>
+		</section>
+
+		<main class="b-main g-container">
+			<section class="b-about-us">
+				<article class="b-info">
+					<div class="b-info__logo">
+						<i class="fa fa-font-awesome"></i>
+					</div>
+					<header class="b-info__header">Created with FA</header>
+					<p class="b-info__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore recusandae amet adipisci in maiores tempora sint perspiciatis! Eligendi, repellat fuga animi praesentium eius voluptas numquam consequuntur, atque rerum, iure accusantium!<br>
+						<a class="b-info__link">See more...</a>
+					</p>
+				</article>
+				<article class="b-info">
+					<div class="b-info__logo">
+						<i class="fa fa-book"></i>
+					</div>
+					<header class="b-info__header">Complete tests</header>
+					<p class="b-info__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore recusandae amet adipisci in maiores tempora sint perspiciatis! Eligendi, repellat fuga animi praesentium eius voluptas numquam consequuntur, atque rerum, iure accusantium!<br/>
+					<a class="b-info__link" href="">See more...</a></p>
+				</article>
+				<article class="b-info">
+					<div class="b-info__logo">
+						<i class="fa fa-btc"></i>
+					</div>
+					<header class="b-info__header">Bitcoin support</header>
+					<p class="b-info__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore recusandae amet adipisci in maiores tempora sint perspiciatis! Eligendi, repellat fuga animi praesentium eius voluptas numquam consequuntur, atque rerum, iure accusantium!
+					<br/>
+					<a class="b-info__link" href="">See more...</a>
+					</p>
+					
+				</article>
+				<article class="b-info">
+					<div class="b-info__logo">
+						<i class="fa fa-android"></i>
+					</div>
+					<header class="b-info__header">Mobile Platform</header>
+					<p class="b-info__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore recusandae amet adipisci in maiores tempora sint perspiciatis! Eligendi, repellat fuga animi praesentium eius voluptas numquam consequuntur, atque rerum, iure accusantium!<br/>
+					<a class="b-info__link" href="">See more...</a>
+					</p>
+				</article>
+			</section>
+
+			<section class="b-references">
+				<h1 class="b-references__title">Our References</h1>
+				<div class="b-references__line-through"></div>
+				<article class="b-opinion">
+					<img class="b-opinion__avatar" src="face.jpg" alt="">
+					<blockquote class="b-opinion__body">
+						<h1 class="b-opinion__author">John Smith</h1>
+						<p class="b-opinion__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit culpa, vitae excepturi vero sint nemo magnam cum hic, maiores porro!</p>
+						<p class="b-opinion__ps">Lorem ipsum dolor sit amet, consectetur.</p>
+					</blockquote>
+				</article>
+				<article class="b-opinion">
+					<img class="b-opinion__avatar" src="f3.jpg" alt="">
+					<blockquote class="b-opinion__body">
+						<h1 class="b-opinion__author">Lui Munkhgausen</h1>
+						<p class="b-opinion__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit culpa, vitae excepturi vero sint nemo magnam cum hic, maiores porro!</p>
+						<p class="b-opinion__ps">Lorem ipsum dolor sit amet, consectetur.</p>
+					</blockquote>
+				</article>
+				<article class="b-opinion">
+					<img class="b-opinion__avatar" src="f1.jpg" alt="">
+					<blockquote class="b-opinion__body">
+						<h1 class="b-opinion__author">Fedor Citch</h1>
+						<p class="b-opinion__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit culpa, vitae excepturi vero sint nemo magnam cum hic, maiores porro!</p>
+						<p class="b-opinion__ps">Lorem ipsum dolor sit amet, consectetur.</p>
+					</blockquote>
+				</article>
+			</section>
+		</main>
+		<form class="b-feedback">
+			<h1 class="b-feedback__title">Contact Us</h1>
+			<div class="b-feedback__line-through"></div>
+			<div class="g-container b-feedback__layout">
+				<div class="b-feedback__input-group">
+					<input type="text" name="name" class="b-feedback__input" placeholder="Name">
+					<input type="email" name="email" class="b-feedback__input" placeholder="Email">
+				</div>
+				<textarea name="msg" class="b-feedback__textarea" placeholder="Type your message..."></textarea>
+				<div class="b-feedback__input-group">
+					<input type="submit" class="b-feedback__submit" value="Send">
+					<input type="submit" class="b-feedback__invisible-input">
+				</div>
+			</div>
+		</form>
+		<footer class="b-footer">
+			<p class="b-footer__powered-by">Powered by <span class="b-footer__creator">Mike Faraponov</span></p>
+			<span class="b-footer__link-group"> 
+				<a href class=" fa fa-vk"></a> 
+				<a href class="fa fa-facebook"></a> 
+				<a href class=" fa fa-github"></a>
+			</span>
+		</footer>
+	</div>
+	<div class="b-popup">
+		<div class="b-popup__box g-container">
+			<header class="b-popup__title">Sign In</header>
+			<main class="b-popup__body">
+				<input type="text" class="b-popup__input" placeholder="Login or email">
+				<input type="password" class="b-popup__input" placeholder="Password">
+			</main>
+			<footer class="b-popup__footer"><button class="b-popup__button b-popup__button--success">Login</button><button class="b-popup__button b-popup__button--primary">Sign up</button></footer>
+		</div>
+	</div>
+	<script src="popup.js"></script>
+</body>
+
+</html>
