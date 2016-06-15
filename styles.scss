@@ -393,6 +393,8 @@ a {
 		height: 1.6em;
 		position: relative;
 		background-color: $main;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
 	}
 
 	&__body {
